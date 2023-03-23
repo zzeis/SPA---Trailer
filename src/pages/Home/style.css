@@ -1,0 +1,27 @@
+.container-home {
+  height: calc(100vh - 130px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-home div {
+  max-width: 500px;
+}
+.container-home div h1 {
+  margin: 20px 0;
+}
+.container-home div p {
+  margin: 20px 0;
+}
+.container-home div button {
+  width: 150px;
+  background-color: #502F4C;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  height: 35px;
+}
+.container-home img {
+  width: 30%;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+$headerColor : #502F4C;
+
+.container-main{
+   background-color: $headerColor;
+   color: #fff;
+   display: flex; 
+   justify-content: space-evenly;
+   align-items: center;
+   height: 65px;
+   padding: 0 7%;
+
+   ul{
+      list-style: none;
+      display: flex;
+   }
+   li{
+      padding: 0 20px;
+      a{
+         text-decoration: none;
+         color: #fff;
+      }
+   }
+}

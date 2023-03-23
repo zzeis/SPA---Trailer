@@ -1,0 +1,31 @@
+
+$headerColor : #502F4C;
+.container-home{
+    height: calc(100vh - 130px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    div{
+        max-width: 500px;
+        h1{
+            margin: 20px 0;
+        }
+        p{
+            margin: 20px 0;
+        }
+        button{
+            width: 150px;
+            background-color: $headerColor;
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            border-radius: 25px;
+            height: 35px;
+        }
+    }
+    img{
+        width: 30%;
+    }
+   
+}

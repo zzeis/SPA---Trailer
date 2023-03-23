@@ -1,0 +1,11 @@
+$headerColor : #502F4C;
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    background-color: $headerColor;
+    color: #fff;
+    
+}
