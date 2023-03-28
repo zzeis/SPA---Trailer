@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 import Home from "./pages/Home/";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Cardapio";
 import Service from "./pages/Services";
 import Header from "./components/Header";
 import Footer from "./components/Footer";

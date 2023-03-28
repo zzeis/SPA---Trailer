@@ -3,6 +3,19 @@ footer {
   align-items: center;
   justify-content: center;
   height: 65px;
-  background-color: #502F4C;
-  color: #fff;
+  background-color: #fff;
+  color: #251d1d;
+}
+footer p {
+  color: #251d1d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: bold;
+}
+
+.git {
+  margin: 0 5px;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,9 +1,12 @@
 import './style.css';
-
+import {AiOutlineGithub} from 'react-icons/ai'
 const Footer = () =>{
     return(
         <footer>
-            Footer
+            <p>by @zzeis <br/> <AiOutlineGithub/> </p>
+            
+           
+        
         </footer>
     )
 }

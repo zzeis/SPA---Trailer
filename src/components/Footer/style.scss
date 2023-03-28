@@ -1,11 +1,25 @@
-$headerColor : #502F4C;
+$Color : #fff;
+$textColor: #251d1d;
 
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 65px;
-    background-color: $headerColor;
-    color: #fff;
+    background-color: $Color;
+    color: $textColor;
     
+    p{
+        color: $textColor;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        font-weight: bold;
+    }
+}
+
+.git{
+    margin: 0 5px;
+    font-size: 20px;
 }

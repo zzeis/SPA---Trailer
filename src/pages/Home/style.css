@@ -1,14 +1,22 @@
 .container-home {
-  height: calc(100vh - 130px);
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
+  height: 100vh;
 }
 .container-home div {
   max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
 }
 .container-home div h1 {
   margin: 20px 0;
+  font-size: 100px;
+  font-weight: 700;
 }
 .container-home div p {
   margin: 20px 0;
@@ -17,7 +25,7 @@
 }
 .container-home div button {
   width: 150px;
-  background-color: #502F4C;
+  background-color: #fff;
   color: #fff;
   font-weight: bold;
   border: none;
@@ -26,4 +34,5 @@
 }
 .container-home img {
   width: 30%;
+  margin: 5px;
 }/*# sourceMappingURL=style.css.map */

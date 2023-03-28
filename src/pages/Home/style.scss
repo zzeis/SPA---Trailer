@@ -1,15 +1,25 @@
+$ColorBlue : #fff;
+$textColor: #251d1d;
 
-$headerColor : #502F4C;
+
 .container-home{
-    height: calc(100vh - 130px);
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-color: #fff;
+    height: 100vh;
     div{
         max-width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
         h1{
+
             margin: 20px 0;
+            font-size: 100px;
+            font-weight: 700;
         }
         p{
             margin: 20px 0;
@@ -18,7 +28,7 @@ $headerColor : #502F4C;
         }
         button{
             width: 150px;
-            background-color: $headerColor;
+            background-color: $ColorBlue;
             color: #fff;
             font-weight: bold;
             border: none;
@@ -28,6 +38,8 @@ $headerColor : #502F4C;
     }
     img{
         width: 30%;
+        margin: 5px;
     }
    
 }
+
