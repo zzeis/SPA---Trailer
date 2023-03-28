@@ -4,12 +4,12 @@ import './style.css'
 const Header = () =>{
     return(
         <main className="container-main">
-            <h1>Consultoria</h1>
+            <h1>Ohana</h1>
 
             <ul>
-                <li><Link to='/'><a>Home</a></Link></li>
-                <li><Link to='/service'><a>Service</a></Link></li>
-                <li><Link to='/contact'><a>Contact</a></Link></li>
+                <li><Link to='/'><a>Inicio</a></Link></li>
+                <li><Link to='/service'><a>Cardapio</a></Link></li>
+                <li><Link to='/contact'><a>Sobre</a></Link></li>
             </ul>
 
         </main>
