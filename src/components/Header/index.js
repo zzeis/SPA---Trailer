@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from '../../img/logo.png';
 import {AiFillInstagram} from 'react-icons/ai'
-import {BsFacebook} from 'react-icons/bs'
+import {GrFacebookOption} from 'react-icons/gr'
 import './style.css'
 
 const Header = () =>{
@@ -16,8 +16,8 @@ const Header = () =>{
             </ul>
 
             <ul className="icons">
-                <li><AiFillInstagram/></li>
-                <li><BsFacebook/></li>  
+                <li><a href="https://www.instagram.com/ohana.trailer/"><AiFillInstagram/></a></li>
+                <li><a href="https://www.facebook.com/ohana.trailer013"><GrFacebookOption/></a></li>  
             </ul>
 
         </main>

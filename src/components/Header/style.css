@@ -1,6 +1,6 @@
 .container-main {
   background-color: #fff;
-  color: #251d1d;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,9 @@
 }
 .container-main li a {
   text-decoration: none;
-  color: #251d1d;
+  color: #fff;
+  align-items: center;
+  display: flex;
 }
 
 .icons {

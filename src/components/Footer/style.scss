@@ -6,10 +6,12 @@ footer{
     align-items: center;
     justify-content: center;
     height: 65px;
-    background-color: $Color;
+    
+    position: relative;
     color: $textColor;
     
     p{
+        
         color: $textColor;
         display: flex;
         align-items: center;
@@ -22,4 +24,5 @@ footer{
 .git{
     margin: 0 5px;
     font-size: 20px;
+    
 }

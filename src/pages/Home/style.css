@@ -15,12 +15,14 @@
 }
 .container-home div h1 {
   margin: 20px 0;
+  color: #fff;
   font-size: 100px;
   font-weight: 700;
 }
 .container-home div p {
   margin: 20px 0;
   width: 70%;
+  color: #fff;
   line-height: 1.5;
 }
 .container-home div button {
@@ -35,4 +37,11 @@
 .container-home img {
   width: 30%;
   margin: 5px;
+}
+
+main {
+  background-image: url("../../img/background.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100vh;
 }/*# sourceMappingURL=style.css.map */

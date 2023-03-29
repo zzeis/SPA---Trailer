@@ -1,9 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-
 import Home from "./pages/Home/";
-import Contact from "./pages/Cardapio";
-import Service from "./pages/Services";
+import Contact from "./pages/Sobre";
+import Cardapio from "./pages/Cardapio";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import './global-style.css';
@@ -13,7 +12,7 @@ const Rotas = () => {
       <Header />
       <Routes>
         <Route path="/" exact={true} Component={Home} />
-        <Route path="/service" Component={Service} />
+        <Route path="/service" Component={Cardapio} />
         <Route path="/contact" Component={Contact} />
       </Routes>
       <Footer />

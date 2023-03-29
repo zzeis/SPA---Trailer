@@ -1,31 +1,24 @@
-.container-contact {
-  height: calc(100vh - 130px);
+.container-cardapio {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-image: url("../../img/background.svg");
+  background-size: cover;
 }
-.container-contact form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+.drawn {
+  max-width: 200px;
+  height: 200px;
 }
-.container-contact form input {
-  margin: 5px;
-  padding: 5px;
-  width: 400px;
+
+.card {
   border: none;
-  border-bottom: 1px solid #502F4C;
-}
-.container-contact form input[type=submit] {
-  border-bottom: none;
-  background-color: #502F4C;
-  color: #fff;
-  padding: 10px;
   border-radius: 5px;
-  font-weight: bold;
-  width: 400px;
+  margin: 10px 0;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
 }
-.container-contact form input[type=submit]:hover {
-  background-color: #581851;
+.card p {
+  color: #000;
 }/*# sourceMappingURL=style.css.map */

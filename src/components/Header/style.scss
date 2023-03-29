@@ -1,5 +1,5 @@
 $ColorBlue : #fff;
-$textColor: #251d1d;
+$textColor: #fff;
 .container-main{
    background-color: $ColorBlue;
    color: $textColor;
@@ -22,6 +22,8 @@ $textColor: #251d1d;
       a{
          text-decoration: none;
          color: $textColor;
+         align-items: center;
+         display: flex;
       }
       
    }

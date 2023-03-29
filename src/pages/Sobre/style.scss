@@ -1,0 +1,17 @@
+
+.container-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-image: url("../../img/background.svg");
+  
+    background-size: cover;
+    
+    p{
+        margin: 5%;
+        max-width: 600px;
+        line-height: 30px;
+        color: #fff;
+    }
+}

@@ -3,7 +3,7 @@ footer {
   align-items: center;
   justify-content: center;
   height: 65px;
-  background-color: #fff;
+  position: relative;
   color: #251d1d;
 }
 footer p {

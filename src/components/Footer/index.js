@@ -5,8 +5,6 @@ const Footer = () =>{
         <footer>
             <p>by @zzeis <br/> <AiOutlineGithub/> </p>
             
-           
-        
         </footer>
     )
 }

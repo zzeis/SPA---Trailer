@@ -1,5 +1,5 @@
 $ColorBlue : #fff;
-$textColor: #251d1d;
+$textColor: #fff;
 
 
 .container-home{
@@ -15,15 +15,18 @@ $textColor: #251d1d;
         align-items: center;
         flex-direction: column;
         padding: 10px;
+        
         h1{
 
             margin: 20px 0;
+            color: $textColor;
             font-size: 100px;
             font-weight: 700;
         }
         p{
             margin: 20px 0;
             width: 70%;
+            color: $textColor;
             line-height: 1.5;
         }
         button{
@@ -43,3 +46,10 @@ $textColor: #251d1d;
    
 }
 
+
+main{
+    background-image: url("../../img/background.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;
+}
