@@ -1,15 +1,16 @@
 import "./style.css";
+import photo from "../../img/photo.jpg"
 const Sobre = () => {
   return (
-    <div className="container-sobre">
+    <div className="container-sobre h-full md:h-full lg:h-screen sm:h-full">
       <p>
-        Adipisicing esse anim consectetur consectetur ea. Fugiat ex anim laborum
-        ad sunt. Est sunt in magna reprehenderit esse voluptate consequat veniam
-        duis ullamco qui. Quis non dolore elit anim reprehenderit duis ullamco
-        ad nostrud cupidatat est proident in. Deserunt adipisicing nisi ipsum ea
-        do cillum quis magna ullamco. Deserunt sit cillum eu voluptate culpa ad
-        cupidatat.
+       Trailer localizado na Cidade Iguape SP, gerenciado pelo tio Oziender e a tia Eunice,
+       começou em 2019 e se mantem até hoje.
+       
+      <hr/>
+     
       </p>
+      <img src={photo}/>
     </div>
   );
 };
