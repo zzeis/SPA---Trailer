@@ -3,7 +3,7 @@ import "./style.css";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 const Home = () => {
   return (
-    <main className="container-home  h-screen md:h-full lg:h-screen sm:h-full">
+    <main className="container-home  h-screen md:h-screen lg:h-screen sm:h-full">
      
         <div className="card-title">
           <h1 >
