@@ -2,12 +2,14 @@
 import Service from '../../components/service';
 import Hotdog from '../../img/hotdog.svg';
 import Lanches from '../../img/lanches2.svg';
-import Coxinha from '../../img/COXINHA2.png';
+import Coxinha from '../../img/COXINHA3.png';
 import Drinks from '../../img/drink.svg';
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import './style.css';
 const Cardapio = () =>{
     return(
-        <div className='container-cardapio'>
+      
+        <div className='container-cardapio h-full md:h-full lg:h-screen sm:h-full'>
 
             <div className='card'>
                 <Service name='Hotdogs'/>
@@ -26,10 +28,14 @@ const Cardapio = () =>{
             
             <div className='card'>
                 <Service name='Salgados'/>
-                <img className='drawn' src={Coxinha} alt='Salgados'/>
+                <img className='drawn'  src={Coxinha} alt='Salgados'/>
             </div>
             
+
+         
         </div>
+        
+      
     )
 }
 
