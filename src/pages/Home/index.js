@@ -3,21 +3,21 @@ import "./style.css";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 const Home = () => {
   return (
-    <main className="container-home">
+    <main className="container-home h-screen md:h-full lg:h-screen sm:h-full">
      
         <div className="card-title">
-          <h1>
+          <h1 >
             Ohana
             <br />
             Trailer
           </h1>
-          <p>
-            Consectetur sit veniam commodo veniam nisi. Dolore dolor ut sit non
-            aliquip esse ea mollit do sint quis minim voluptate dolore. Eiusmod
-            duis consequat do Lorem aute.
+          <p >
+           O trailer da familia! venha se divertir com seus
+           amigos.<br/>
+           Lanches | Hotdogs | Salgados | Drinks
           </p>
         </div>
-      <div>
+      <div className="animation ">
         <Player
           autoplay
           loop
