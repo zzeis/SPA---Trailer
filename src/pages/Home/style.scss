@@ -1,21 +1,29 @@
 $ColorBlue : #fff;
-$textColor: #fff;
+$textColor: #010101;
+
 
 
 .container-home{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
     justify-content: center;
-    background-color: #fff;
-    height: 100vh;
+    background-color: #ffffff;
+   
+  
     div{
         max-width: 500px;
+        max-height: 500px;
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
         align-items: center;
         flex-direction: column;
         padding: 10px;
-        
+        overflow: hidden;
+        position: relative;
+    }
+
         h1{
 
             margin: 20px 0;
@@ -29,16 +37,9 @@ $textColor: #fff;
             color: $textColor;
             line-height: 1.5;
         }
-        button{
-            width: 150px;
-            background-color: $ColorBlue;
-            color: #fff;
-            font-weight: bold;
-            border: none;
-            border-radius: 25px;
-            height: 35px;
-        }
-    }
+        
+       
+    
     img{
         width: 30%;
         margin: 5px;
@@ -47,9 +48,5 @@ $textColor: #fff;
 }
 
 
-main{
-    background-image: url("../../img/background.svg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 100vh;
-}
+
+
