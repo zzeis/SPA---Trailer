@@ -9,7 +9,7 @@ import './style.css';
 const Cardapio = () =>{
     return(
       
-        <div className='container-cardapio h-full md:h-full lg:h-screen sm:h-full'>
+        <div className='container-cardapio h-full md:h-screen lg:h-screen sm:h-full'>
 
             <div className='card'>
                 <Service name='Hotdogs'/>
