@@ -11,7 +11,7 @@ const Footer = () =>{
                 <MdLocationOn/> Av. Princesa Isabel , 731 - Centro, Iguape - SP (s/n)
                 <BsFillTelephoneFill/>(13)997064784
              </span>
-            <p>by @zzeis <br/> <AiOutlineGithub/> </p>
+             <a href='https://github.com/zzeis/SPA---Trailer'> <p> by @zzeis <br/> <AiOutlineGithub/> </p></a>
             
         </footer>
     )
