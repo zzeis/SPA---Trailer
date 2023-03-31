@@ -7,7 +7,7 @@ import './style.css'
 
 const Header = () =>{
     return(
-        <main className="container-main">
+        <main className="container-main ">
             <h1><IoMdFlower/>Ohana</h1>
 
             <ul>
