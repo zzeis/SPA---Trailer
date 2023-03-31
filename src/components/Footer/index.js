@@ -6,9 +6,11 @@ const Footer = () =>{
     return(
         <footer>
              
-             <p className='adress'><MdLocationOn/>Av. Princesa Isabel,731 - Centro,  Iguape - SP
-                 <BsFillTelephoneFill/>(13)997064784
-             </p>
+             <span className='adress'>
+                
+                <MdLocationOn/> Av. Princesa Isabel , 731 - Centro, Iguape - SP (s/n)
+                <BsFillTelephoneFill/>(13)997064784
+             </span>
             <p>by @zzeis <br/> <AiOutlineGithub/> </p>
             
         </footer>
