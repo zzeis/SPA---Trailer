@@ -2,12 +2,13 @@ import { Link } from "react-router-dom";
 import logo from '../../img/logo.png';
 import {AiFillInstagram} from 'react-icons/ai'
 import {GrFacebookOption} from 'react-icons/gr'
+import {IoMdFlower} from 'react-icons/io'
 import './style.css'
 
 const Header = () =>{
     return(
         <main className="container-main">
-            <h1>Ohana</h1>
+            <h1><IoMdFlower/>Ohana</h1>
 
             <ul>
                 <li><Link to='/'><a>Inicio</a></Link></li>
