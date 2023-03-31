@@ -1,28 +1,51 @@
-$Color : #fff;
-$textColor: #251d1d;
+$Color: #fff;
+$textColor: #ffffff;
 
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 65px;
-    
-    position: relative;
-    color: $textColor;
-    
-    p{
-        
-        color: $textColor;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        gap: 5px;
-        font-weight: bold;
-    }
+
+.adress{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
-.git{
-    margin: 0 5px;
-    font-size: 20px;
-    
+footer {
+  padding: 0px;
+  margin: 0;
+ 
+  position: relative;
+  bottom: 0;
+
+  padding: 5px;
+  display: flex; 
+  opacity:0.6;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #251d1d;
+
+  color: $textColor;
+  
+  p {
+    color: $textColor;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.git {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-weight: 100;
+  padding: 5px;
+  span {
+    align-items: center;
+  }
 }
