@@ -1,14 +1,17 @@
 .container-sobre {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  height: 100vh;
-  background-image: url("../../img/background.svg");
-  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-sobre img {
+  width: 300px;
+  height: 300px;
 }
 .container-sobre p {
   margin: 5%;
   max-width: 600px;
   line-height: 30px;
-  color: #fff;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
