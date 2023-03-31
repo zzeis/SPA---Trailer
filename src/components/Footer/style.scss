@@ -5,7 +5,7 @@ $textColor: #ffffff;
 .adress{
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 15px;
   flex-wrap: wrap;
 }
 
@@ -16,7 +16,7 @@ footer {
   position: relative;
   bottom: 0;
   flex-wrap: wrap;
-  padding: 5px;
+  padding: 2px;
   display: flex; 
   opacity:0.6;
   flex-direction: row;
