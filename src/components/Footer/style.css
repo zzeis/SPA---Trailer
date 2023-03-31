@@ -10,7 +10,7 @@ footer {
   position: relative;
   margin-top: auto;
   flex-wrap: wrap;
-  padding: 2px;
+  padding: 5px;
   display: flex;
   opacity: 0.6;
   flex-direction: row;
