@@ -4,7 +4,7 @@ $textColor: #000000;
    background-color: $ColorBlue;
    color: $textColor;
    display: flex; 
-  
+   flex-wrap: wrap;
    justify-content:space-evenly;
    align-items: center;
    height: 65px;
