@@ -4,7 +4,7 @@ import {MdLocationOn} from 'react-icons/md'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 const Footer = () =>{
     return(
-        <footer>
+        <footer >
              
              <span className='adress'>
                 
